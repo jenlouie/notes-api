@@ -1,31 +1,28 @@
-# todo-api
+# notes-api
+This is a really basic API (just GET and POST) to some hard-coded data for demo purposes.
+
 Check versions of node and npm:
 ```
 node -v
 npm -v
 ```
 Get npm:
-
 https://www.npmjs.com/get-npm
 
-Get Postman
+Get Postman:
 https://www.getpostman.com/
 
-Update npm:
+Update npm (if already installed):
 ```
 npm install npm@latest -g
 ```
 
-npm init
-For entry point, enter in `server.js`
-npm install --save express body-parser
-npm install --save-dev nodemon
+To create project:
 
-Create server.js and copy contents over.
-`node server.js` or `npm run dev` (to run nodemon)
-
-
-
+1. `npm init`
+2. Accept defaults for everything except entry point prompt. For this, enter in `server.js`.
+3. `npm install --save express body-parser`
+4. `npm install --save-dev nodemon`
 
 To run locally:
 
