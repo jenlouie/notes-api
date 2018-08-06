@@ -1,5 +1,7 @@
 # notes-api
-This is a really basic API (just GET and POST) to some hard-coded data for demo purposes.
+This is a really basic API (just GET and POST) to some hard-coded data for demo purposes. 
+
+Use this project and the accompanying [REST-Postman](https://github.com/jenlouie/REST-Postman) collection to run the service and send requests to it.
 
 Check versions of node and npm:
 ```
@@ -24,11 +26,12 @@ To create project:
 3. `npm install --save express body-parser`
 4. `npm install --save-dev nodemon`
 
-To run locally:
+To run locally and test:
 
 1. Ensure you're in \notes-api\ directory.
 2. Fetch dependencies with `npm install`.
 3. Run the server with `node server.js` or `npm run dev` (to run nodemon).
+4. Import the [REST-Postman](https://github.com/jenlouie/REST-Postman) collection to try the requests.
 
 To debug using Visual Studio Code:
 
