@@ -1,11 +1,12 @@
 {
   "name": "todo-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a really basic API (just GET and POST) to some hard-coded data for demo purposes.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
